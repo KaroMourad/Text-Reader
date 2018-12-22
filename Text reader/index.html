@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Letters</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./main.css">
+	</head>
+
+	<body>
+					<div id="printletters"></div>
+		<div id="main">
+			<div id="childdiv"></div>
+
+			<div class="buttons">
+				<button type="button" id="save"  class="button">Save</button>
+				<b>Type Letter:</b>
+				<input type="text"  placeholder="Type capital letter" id="input" style="height:30px">
+				<button type="button" id="reset"  class="button">Reset Table</button><br/>
+				<button type="button" id="display" class="button" style="width: 470px;">Display</button>
+				<button type="button" id="saveAll" class="button" style="width: 470px;">SaveAll</button>
+			</div>
+		</div>
+
+		<div id="secondDisplay">
+				<table id="mytable"></table>
+	    		<input id="inpT" type="text" placeholder="input text:">
+	   			<button id="start" onclick="startDraw()">Start</button>
+	   			<button id = "rotate">Rotate</button>
+
+                <div id="coloredButtons">
+	               	<div id = "black"></div>
+		   			<div id = "red"></div>
+		   			<div id = "yellow" ></div>
+		   			<div id = "blue" ></div>
+		   			<div id = "green"></div>
+		   			<div id = "orange"></div>
+	   		    </div>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+
+</html>
